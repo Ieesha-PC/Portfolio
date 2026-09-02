@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Ieesha Abdallah, a final-year Software Engineering (Honours) student building thoughtful, practical digital experiences." />
+    <meta name="theme-color" content="#fff9fc" />
+    <title>Ieesha Abdallah | Software Engineer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='50' fill='%232c2633'/%3E%3Ctext x='50' y='61' text-anchor='middle' font-family='Georgia' font-size='39' fill='white'%3EIA%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#home" aria-label="Ieesha Abdallah, home">
+        <span class="logo-mark" aria-hidden="true">IA</span>
+        <span>Ieesha Abdallah</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cta" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Open to graduate opportunities</p>
+          <h1>I build thoughtful tech with <span class="scribble">heart.</span></h1>
+          <p class="hero-lede">I’m Ieesha, a final-year Software Engineering (Honours) student who loves turning real problems into practical, people-friendly solutions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="Resume%202026.docx" download>Download résumé <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-notes" aria-label="A little about Ieesha">
+            <span>📍 Sydney, Australia</span>
+            <span>🎓 UTS ’26</span>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Illustration of Ieesha's interests">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card floating-card">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <code><span>const</span> engineer = {<br />&nbsp;&nbsp;curious: <b>true</b>,<br />&nbsp;&nbsp;kind: <b>true</b>,<br />&nbsp;&nbsp;coffee: <em>"yes"</em><br />};</code>
+          </div>
+          <div class="cat-card floating-card">
+            <img src="assets/cute-cat-face.png" alt="Cute illustrated cat face" />
+          </div>
+          <div class="mini-badge badge-build">build</div>
+          <div class="mini-badge badge-learn">learn</div>
+          <div class="sparkle sparkle-one">✦</div>
+          <div class="sparkle sparkle-two">✿</div>
+        </div>
+        <a class="scroll-cue" href="#about"><span>Scroll to discover</span><i aria-hidden="true"></i></a>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-heading reveal">
+          <p class="kicker">01 / About me</p>
+          <h2>Engineering, with people in mind.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="about-lead">I’m a final-year Software Engineering student at the University of Technology Sydney with a strong interest in building practical solutions to real-world problems.</p>
+            <p>Across university and industry, I’ve worked in software development, testing, technical support, and client-facing delivery. Most recently, I led a multidisciplinary team at Optik Consultancy, helping turn road imagery into useful defect insights with Python and OpenCV.</p>
+            <p>I enjoy taking a messy problem, breaking it down, and bringing people together to make something useful. I’m looking for a graduate or junior software engineering role where I can keep learning, contribute with care, and build technology that makes someone’s day a little easier.</p>
+            <a class="text-link" href="#contact">Let’s build something meaningful <span>→</span></a>
+          </div>
+          <div class="values-card reveal">
+            <p class="tiny-label">My ingredients</p>
+            <div class="value-row"><span>01</span><div><h3>Curiosity</h3><p>I ask questions, explore possibilities, and enjoy learning how things work.</p></div></div>
+            <div class="value-row"><span>02</span><div><h3>Kindness</h3><p>I believe great work grows from patient communication and supportive teams.</p></div></div>
+            <div class="value-row"><span>03</span><div><h3>Follow-through</h3><p>I care about the details, from the first idea through to a clear handover.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section-heading reveal">
+          <p class="kicker">02 / Projects</p>
+          <h2>A few things I’ve helped bring to life.</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card project-peach reveal" tabindex="0">
+            <div class="project-number">01</div>
+            <div class="project-visual road-visual" aria-hidden="true">
+              <div class="road-frame"><span class="road-line one"></span><span class="road-line two"></span><span class="road-line three"></span><i>defect detected</i></div>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>Computer vision</span><span>Optik Consultancy</span></div>
+              <h3>Road Defect Analysis</h3>
+              <p>Led a multidisciplinary internship team delivering a prototype for DCPM. The Python and OpenCV workflow processes road imagery and video to outline visible defects and generate approximate measurements.</p>
+              <ul class="tag-list"><li>Python</li><li>OpenCV</li><li>Team leadership</li><li>Client delivery</li></ul>
+              <button class="project-detail-toggle" aria-expanded="false">More about my contribution <span>+</span></button>
+              <div class="project-details"><p>I coordinated tasks, deadlines, progress, and client communication while contributing to the technical workflow, documentation, setup guidance, demonstrations, and final handover.</p></div>
+            </div>
+          </article>
+
+          <article class="project-card project-lilac reveal" tabindex="0">
+            <div class="project-number">02</div>
+            <div class="project-visual covilla-visual" aria-hidden="true">
+              <div class="app-shell"><div class="app-top"><i></i><span>Covilla</span></div><div class="task checked"><i>✓</i><span>Kitchen reset</span></div><div class="task"><i></i><span>Take bins out</span></div><div class="task"><i></i><span>Water plants</span></div></div>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>Full-stack web app</span><span>University</span></div>
+              <h3>Covilla</h3>
+              <p>An AI-assisted chore management platform for shared households, designed around fairness, accountability, and easier task tracking.</p>
+              <ul class="tag-list"><li>React</li><li>TypeScript</li><li>Node.js</li><li>PostgreSQL</li></ul>
+              <button class="project-detail-toggle" aria-expanded="false">More about my contribution <span>+</span></button>
+              <div class="project-details"><p>I built setup, task board, task detail, and approvals screens, supported backend development, and collaborated in an eight-person Scrum team using structured GitHub workflows.</p></div>
+            </div>
+          </article>
+
+          <article class="project-card project-blue reveal" tabindex="0">
+            <div class="project-number">03</div>
+            <div class="project-visual care-visual" aria-hidden="true">
+              <div class="phone"><div class="phone-pill"></div><p>Good morning</p><h4>How can we help?</h4><div class="care-options"><i>♡</i><i>☼</i><i>⌁</i></div><div class="phone-line"></div><div class="phone-line short"></div></div>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span>Client platform</span><span>University</span></div>
+              <h3>MyCaringLife</h3>
+              <p>A support platform for carers of elderly or disabled people, developed through a real client-facing process with weekly feedback and demonstrations.</p>
+              <ul class="tag-list"><li>Frontend</li><li>Testing</li><li>Business analysis</li><li>Mobile QA</li></ul>
+              <button class="project-detail-toggle" aria-expanded="false">More about my contribution <span>+</span></button>
+              <div class="project-details"><p>I supported cross-platform development, integration, testing, requirements clarification, and documentation, then presented the product in a live client demo.</p></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="section-heading reveal">
+          <p class="kicker">03 / My toolkit</p>
+          <h2>Skills I bring to the table.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-cloud reveal" aria-label="Technical skills">
+            <button style="--x:12%;--y:15%;--r:-4deg;--c:#ffd8d0">Java</button>
+            <button style="--x:42%;--y:6%;--r:3deg;--c:#dfd4ff">Python</button>
+            <button style="--x:70%;--y:18%;--r:-2deg;--c:#ccecf5">JavaScript</button>
+            <button style="--x:20%;--y:39%;--r:4deg;--c:#fff0b8">React</button>
+            <button style="--x:51%;--y:34%;--r:-5deg;--c:#ffd5e7">TypeScript</button>
+            <button style="--x:76%;--y:48%;--r:4deg;--c:#d7edca">Node.js</button>
+            <button style="--x:7%;--y:67%;--r:-3deg;--c:#d9ddff">OpenCV</button>
+            <button style="--x:38%;--y:64%;--r:2deg;--c:#ffe0c7">PostgreSQL</button>
+            <button style="--x:67%;--y:76%;--r:-4deg;--c:#f3d7ff">GitHub</button>
+          </div>
+          <div class="skill-groups reveal">
+            <div class="skill-group"><span class="skill-icon">⌘</span><div><h3>Build</h3><p>Java · Python · JavaScript · C · C++ · React · Tailwind CSS</p></div></div>
+            <div class="skill-group"><span class="skill-icon">⎇</span><div><h3>Connect</h3><p>Node.js · Express · TypeScript · PostgreSQL · GitHub</p></div></div>
+            <div class="skill-group"><span class="skill-icon">✓</span><div><h3>Deliver</h3><p>Testing · Debugging · Documentation · IT support · Client communication</p></div></div>
+            <div class="soft-skills"><span>Collaborative</span><span>Effective communicator</span><span>Problem solver</span><span>Team builder</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section" id="experience">
+        <div class="section-heading reveal">
+          <p class="kicker">04 / Experience</p>
+          <h2>Learning by doing.</h2>
+        </div>
+        <div class="timeline reveal">
+          <article class="timeline-item active"><div class="timeline-date">May to Aug 2026</div><div class="timeline-dot"></div><div><p class="role-label">Optik Consultancy</p><h3>Software Engineering Intern · Project Team Lead</h3><p>Led a client-facing road-defect analysis prototype and contributed across computer vision, delivery, documentation, and handover.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">Mar 2023 to May 2026</div><div class="timeline-dot"></div><div><p class="role-label">Freelance</p><h3>Tutor</h3><p>Adapted explanations to different learning styles, helping students understand content and grow their confidence.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">May 2023 to Dec 2025</div><div class="timeline-dot"></div><div><p class="role-label">Salamah College</p><h3>IT Support</h3><p>Resolved hardware, software, and everyday computing issues for users with a wide range of technical experience.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">2021 to 2026</div><div class="timeline-dot"></div><div><p class="role-label">University of Technology Sydney</p><h3>Bachelor of Software Engineering (Honours)</h3><p>Building a foundation in software design, development, collaboration, and real-world project delivery.</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-card reveal">
+          <div class="contact-flower flower-left" aria-hidden="true">✿</div>
+          <div class="contact-flower flower-right" aria-hidden="true">✦</div>
+          <p class="kicker">05 / Let’s connect</p>
+          <h2>Have a role, project, or idea in mind?</h2>
+          <p>I’d love to hear about it. I’m currently looking for graduate and junior software engineering opportunities.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:ieesha.a@hotmail.com">Email me <span>↗</span></a>
+            <a class="button button-light" href="https://linkedin.com/in/ieesha-abdallah-60330a200" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo" href="#home"><span class="logo-mark">IA</span><span>Ieesha Abdallah</span></a>
+      <p>Designed &amp; built with care <span aria-hidden="true">♡</span></p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
