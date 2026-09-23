@@ -47,10 +47,8 @@
 .paper-lines{display:flex;flex-direction:column;gap:12px}
 .paper-lines i{display:block;height:5px;border-radius:5px;background:#eae5ed}
 .paper-lines i:nth-child(2){width:82%}.paper-lines i:nth-child(3){width:91%}.paper-lines i:nth-child(4){width:64%}
-.paper-stamp{position:absolute;right:35px;bottom:34px;display:grid;place-items:center;width:52px;height:52px;border:2px solid #9b82c7;border-radius:50%;font-family:var(--serif);color:#9b82c7;transform:rotate(-12deg)}
-.paper-signature{position:absolute;right:40px;bottom:40px;font-family:var(--serif);font-size:1.45rem;font-style:italic;color:var(--pink-deep);transform:rotate(-7deg)}
-.document-spark{position:absolute;font-size:2.3rem;color:var(--pink-deep)}
-.document-spark.spark-one{top:14%;right:12%}.document-spark.spark-two{left:12%;bottom:15%;color:#9b82c7}
 
 @media(max-width:950px){.document-layout{grid-template-columns:1fr;gap:35px}.document-layout-reverse .document-copy,.document-layout-reverse .document-art{order:initial}.document-art{min-height:430px}.paper-sheet{width:280px;height:370px}}
 @media(max-width:720px){.document-art{min-height:390px}.document-art:before{width:310px;height:310px}.paper-sheet{width:245px;height:330px;padding:38px 30px}.paper-sheet h3{font-size:2rem;margin-bottom:28px}.document-copy .button{width:100%}}
+
+.about-lead{font-family:var(--sans);font-size:clamp(1.05rem,1.45vw,1.25rem);font-weight:400;line-height:1.7;color:var(--ink)}
